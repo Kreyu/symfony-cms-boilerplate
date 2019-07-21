@@ -1,0 +1,6 @@
+security:
+    label: Cooopons CMS
+    login: E-mail
+    password: Password
+    submit: Login
+    access_denied: Access denied.
