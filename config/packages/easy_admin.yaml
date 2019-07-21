@@ -1,0 +1,8 @@
+imports:
+    - { resource: easy_admin/ }
+
+easy_admin:
+    site_name: CMS Boilerplate
+    translation_domain: admin
+    formats:
+        datetime: d/m/Y H:i

@@ -16,3 +16,8 @@
 ###> symfony/web-server-bundle ###
 /.web-server-pid
 ###< symfony/web-server-bundle ###
+
+###> misc ###
+.idea
+*/**/.DS_Store
+###< misc ###

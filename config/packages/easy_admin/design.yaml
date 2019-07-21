@@ -1,6 +1,4 @@
 easy_admin:
     design:
         menu:
-            - { entity: Coupon, label: coupon.label, icon: usd, default: true }
-            - { entity: Brand, label: brand.label, icon: id-badge }
-            - { entity: BrandCategory, label: brand_category.label, icon: tag }
+            # - { entity: ExampleEntity, label: example_entity.label, icon: usd, default: true }

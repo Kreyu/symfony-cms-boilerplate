@@ -1,0 +1,30 @@
+easy_admin:
+    entities:
+        User:
+            class: App\Entity\User
+            label: user.label
+            list:
+                title: user.list.title
+                fields:
+                    - { property: id, label: user.fields.id }
+                    - { property: username, label: user.fields.username }
+                    - { property: email, label: user.fields.email }
+                    - { property: createdAt, label: user.fields.createdAt }
+                    - { property: updatedAt, label: user.fields.updatedAt }
+            show:
+                fields:
+                    - { property: id, label: user.fields.id }
+                    - { property: username, label: user.fields.username }
+                    - { property: email, label: user.fields.email }
+                    - { property: createdAt, label: user.fields.createdAt }
+                    - { property: updatedAt, label: user.fields.updatedAt }
+            new:
+                title: user.new.title
+                fields:
+                    - { property: username, label: user.fields.username }
+                    - { property: email, label: user.fields.email }
+            edit:
+                title: user.edit.title
+                fields:
+                    - { property: username, label: user.fields.username }
+                    - { property: email, label: user.fields.email }

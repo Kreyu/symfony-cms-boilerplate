@@ -1,5 +1,5 @@
 security:
-    label: Cooopons CMS
+    label: CMS Boilerplate
     login: E-mail
     password: Password
     submit: Login
